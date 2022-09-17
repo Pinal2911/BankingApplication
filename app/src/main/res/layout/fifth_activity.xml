@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="156dp"
+        android:layout_y="75dp"
+        android:text="Enter Id"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000080"/>
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="150dp"
+        android:ems="10"
+        android:textSize="25dp"
+        android:hint="Enter ID Here"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textColor="#000080"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="44dp" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="169dp"
+        android:layout_height="70dp"
+        android:layout_x="92dp"
+
+        android:layout_y="261dp"
+        android:backgroundTint="#000080"
+        android:text="DELETE" />
+</AbsoluteLayout>

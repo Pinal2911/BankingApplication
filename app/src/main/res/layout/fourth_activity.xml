@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="368dp"
+        android:layout_height="59dp"
+        android:layout_x="1dp"
+        android:layout_y="8dp"
+        android:textColor="#000080"
+        android:text="ACCOUNTS CREATED ARE:"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

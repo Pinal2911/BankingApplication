@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_x="0dp"
+        android:layout_y="38dp"
+        android:text="LOGIN TO BANK MANAGEMENT SYSTEM"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#191970"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_x="0dp"
+        android:layout_y="178dp"
+        android:text="USERNAME"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#191970"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_x="0dp"
+
+        android:layout_y="241dp"
+        android:text="PASSWORD"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#191970"
+        />
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="167dp"
+        android:ems="10"
+        android:hint="Enter User Name"
+        android:inputType="textPersonName"
+        android:textColor="#191970"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="182dp"
+        android:layout_height="68dp"
+        android:layout_x="84dp"
+        android:layout_y="358dp"
+        android:backgroundTint="#000080"
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="239dp"
+        android:ems="10"
+
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#191970"
+        android:textStyle="bold" />
+</AbsoluteLayout>

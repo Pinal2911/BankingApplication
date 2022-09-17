@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="52dp"
+        android:text="Enter Details"
+        android:textColor="#000080"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="144dp"
+        android:text="Enter ID"
+        android:textColor="#000080"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="127dp"
+
+        android:backgroundTint="#000080"
+        android:ems="10"
+        android:hint="Enter ID here"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="178dp"
+        android:layout_height="68dp"
+        android:layout_x="0dp"
+        android:layout_y="321dp"
+        android:backgroundTint="#000080"
+        android:text="Deposite" />
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="189dp"
+        android:layout_height="65dp"
+        android:layout_x="200dp"
+        android:layout_y="322dp"
+        android:backgroundTint="#000080"
+        android:text="Withdraw" />
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="204dp"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:hint="Enter deposite/withdraw amount"
+        android:inputType="number" />
+</AbsoluteLayout>
